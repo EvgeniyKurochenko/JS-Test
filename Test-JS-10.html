@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+    <meta charset="UTF-8">
+<title>Document</title> 
+<script src="jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+    <script>
+    var date = new Date(); 
+var finishDay = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 23, 59, 59); 
+alert((finishDay.getTime()-date.getTime())*0.001);
+</script>
+</body>
+</html>
